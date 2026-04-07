@@ -1,0 +1,5 @@
+db("sample_mflix").collection("movies").find(
+  {
+    cast: "Tom Hanks"
+  }
+).toArray()
